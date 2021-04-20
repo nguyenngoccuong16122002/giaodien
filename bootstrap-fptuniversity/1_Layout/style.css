@@ -1,0 +1,15 @@
+.logo-section{
+    background: #cb7802;
+    border-bottom: #ff0000 solid 2px;
+ 
+}
+
+.navbar{
+
+} 
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #fff;
+}
+/*boder*/
+.boder{border: #c2c2c2 solid 1px;width:314px;height: 360px;text-align:left;
+    padding:25px 30px 30px 25px;}
