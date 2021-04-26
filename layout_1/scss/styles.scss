@@ -1,0 +1,11 @@
+@import "template/variables/variables";
+/*- Bootstrap
+/*- ---------------------------------------------- */
+// Import Bootstrap variables after customization for use below
+@import "vendor/bootstrap/scss/functions"; // from bootstrap node_modules
+@import "vendor/bootstrap/scss/variables"; // from bootstrap node_modules
+@import "vendor/bootstrap/scss/bootstrap";
+
+//template for my site
+@import "template/template";
+

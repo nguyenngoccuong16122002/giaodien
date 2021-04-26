@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  line-height: normal;
+  font-size: 18px;
+}
+
+#mainNav{
+
+  li {
+    font-size: 22px;
+    padding: 7px 5px;
+    a {
+      color: #424489;
+      text-transform: uppercase !important;
+    }
+  }
+}
