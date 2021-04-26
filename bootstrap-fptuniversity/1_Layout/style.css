@@ -11,5 +11,5 @@
     color: #fff;
 }
 /*boder*/
-.boder{border: #c2c2c2 solid 1px;width:314px;height: 360px;text-align:left;
-    padding:25px 30px 30px 25px;}
+.boder{border: #c2c2c2 solid 1px;text-align:left;
+    padding:1 rem;}

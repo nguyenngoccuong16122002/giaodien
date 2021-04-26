@@ -1,0 +1,34 @@
+.section-blogs {
+  h2 {
+    color: #cb7802;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 26px 0px;
+    font-weight: bold;
+  }
+
+  .blog-item {
+    border: #c2c2c2 solid 1px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 0;
+    }
+
+    .blog-img {
+      text-align: center;
+      @include media-breakpoint-up(lg) {
+        text-align: left;
+      }
+      img {
+        margin: 10px 0 15px 0;
+      }
+    }
+    .phr {
+      color:  #cb7802;
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0;
+    }
+  }
+}

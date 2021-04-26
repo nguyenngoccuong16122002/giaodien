@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  line-height: normal;
+  font-size: 13px;
+}
+.header-logo {
+  background-color: #cb7802;
+  border-bottom: 2px solid 2px;
+}
+
+.section-menu {
+  .menu-list {
+    background-color: #272f54;
+
+    ul {
+      li {
+        font-size: 12px;
+        padding: 7px 5px;
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

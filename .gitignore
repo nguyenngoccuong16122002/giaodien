@@ -1,2 +1,6 @@
-bootstrap-1/node_modules/
-bootstrap-1/package-lock.json
+node_modules
+package-lock.json
+yarn.lock
+layout.psd
+**/vendor/
+.vscode
