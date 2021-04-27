@@ -1,11 +1,19 @@
 #hero-image{
+    font-size: 22px;
     color: #fff;
     background-image: url("/images/hero_image.jpg") ;
     min-height: 600px;
     text-align: center;
+    h1{font-size: 100px;}
 }
 .content{
     background-color: #e9e9ff;
+    img{width: 100%;}
+    .text{
+        font-size: 18px;
+        h3{font-size: 24px;font-weight:bold;}
+        hr{width: 25%;background-color: black;margin-left: 0;}
+    }
 }
 .image-ty{
     display: flex;
@@ -14,11 +22,21 @@
 .typesetting-content{
     .content-ty{
         text-align: center;
-        h5{
+        h3{
             color: #1a1a52; text-transform: uppercase;font-size: 22px;
         }
-        
-       
+        hr{width: 10%;background-color: black}
+       .name{
+            text-transform: uppercase;
+            hr{width: 1%;background-color: black;display: inline-flex;margin: 3px;}
+       }
     }
 }
-
+#ourmission-image{
+    line-height: 2.5rem;
+    color: #fff;
+    background-image: url("/images/image_4.jpg") ;
+    min-height: 400px;
+    text-align: center;
+    h3{font-size: 48px;}
+}
