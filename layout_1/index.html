@@ -10,6 +10,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/styles.css">
+    <!--javascript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Hello, world!</title>
 </head>
 <body>
@@ -17,7 +21,7 @@
         <div class="container">
             <div class="row">
               
-                    <div class="col-12 col-lg-6 logo mt-4 mb-4 d-flex ">
+                    <div class="col-12 col-lg-6 logo mt-4 mb-4 d-flex align-items-center ">
                       <a href="#"><img src="images/layout_03.jpg" alt="logo"></a>
                     </div>
                     <div class="col-12 col-lg-6 menu-list d-flex flex-lg-row-reverse" id="mainNav">
@@ -33,11 +37,11 @@
     <!--hero image-->
     <div class="container-fluid ">
             <div class="row mb-5" id="hero-image">
-                <div class=" col-lg-8 d-flex align-items-center mx-auto ">
+                <div class=" col-lg-6 d-flex align-items-center mx-auto ">
                     <div>
-                        <h1>well come</h1>
+                        <h2>well come</h2>
                      <p>These cases are perfectly simple and easy to distinguish.Lorem Ipsum is simply dummy text of the printing and typesetting industruy
-                       <div class="mt-5"><button type="button" class="btn btn-outline-light">Secondary dfgdfgdff</button></div>
+                       <div class="mt-5"><button type="button" class="btn btn-outline-light">KNOW MORE</button></div>
                     </div>
                 </div>
             </div>
@@ -50,9 +54,9 @@
                     <div class="content">
                         <img src="images/image_1.jpg" alt="Mountains">
                         <div class="p-4 text">
-                            <h3>My Work</h3>
+                            <h3>Perfectly Simple</h3>
                             <hr>
-                            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.These cases are perfectly simple.</p>
                         </div>
                     </div>
                 </div>
@@ -60,9 +64,9 @@
                     <div class="content">
                         <img src="images/image_2.jpg" alt="Mountains">
                         <div class="p-4 text">
-                            <h3>My Work</h3>
+                            <h3>Perfectly Simple</h3>
                             <hr>
-                            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.These cases are perfectly simple.</p>
                         </div>
                     </div>
                 </div>
@@ -70,9 +74,9 @@
                     <div class="content">
                         <img src="images/image_3.jpg" alt="Mountains" style="width:100%">
                         <div class="p-4 text">
-                            <h3>My Work</h3>
+                            <h3>Perfectly Simple</h3>
                             <hr>
-                            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.These cases are perfectly simple.</p>
                         </div>
                     </div>
                 </div>
@@ -82,49 +86,116 @@
 
                     <div class="col-lg-8 d-flex align-items-center mx-auto ">
                         <div>
-                            <h3>well come</h3>
-                        <p>These cases are perfectly simple and easy to distinguish.Lorem Ipsum is simply dummy text of the printing and typesetting industruy
+                            <h3>Our Mission</h3>
+                            <p>These cases are perfectly simple and easy to distinguish. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.These cases are perfectly simple.</p>
                         </div>
                     </div>
                 </div>
             <!--typesetting-->
             <div class="typesetting-content">
                 <div class="row mb-5">
-                    <div class="col-12 image-ty mb-3">
-                        <img  src="images/image_5.jpg" alt="Mountains" >
-                    </div>
-                    <div class="col-lg-8 d-flex align-items-center mx-auto">
-                        <div class="col-12 content-ty  ">
-                            <h3>typesetting industruy</h3>
-                            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam.
-                              Lorem ipsum dolor sit amet, tempor prodesset eos no.Lorem ipsum dolor sit amet, tempor prodesset eos no.
-                             </p>
-                             <hr>
-                              <div class="name"><hr><b>s.johnsom</b><hr></div> 
-                         </div>
-                    </div>
-                </div>
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                          <li data-target="#demo" data-slide-to="0" class="active dot" ></li>
+                          <li data-target="#demo" data-slide-to="1" class="dot"></li>
+                          <li data-target="#demo" data-slide-to="2" class="dot" ></li>
+                          <li data-target="#demo" data-slide-to="3" class="dot"></li>
+                        </ul>
+                        <div class="carousel-inner mb-5 pb-5">
+                          <div class="carousel-item active ">
+                                <div class="col-12 image-ty mb-3">
+                                    <img  src="images/image_5.jpg" alt="Mountains" >
+                                </div>
+                                <div class="col-12 col-lg-8 d-flex align-items-center mx-auto">
+                                    <div class="col-12 content-ty  ">
+                                        <h3>typesetting industruy</h3>
+                                        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam.
+                                        Lorem ipsum dolor sit amet, tempor prodesset eos no.Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                                        </p>
+                                        <hr>
+                                        <div class="name"><hr><b>s.johnsom</b><hr></div> 
+                                    </div>
+                                </div> 
+                          </div>
+                          <div class="carousel-item">
+                          
+                                <div class="col-12 image-ty mb-3">
+                                    <img  src="images/image_5.jpg" alt="Mountains" >
+                                </div>
+                                <div class="col-lg-8 d-flex align-items-center mx-auto">
+                                    <div class="col-12 content-ty  ">
+                                        <h3>typesetting industruy</h3>
+                                        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam.
+                                        Lorem ipsum dolor sit amet, tempor prodesset eos no.Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                                        </p>
+                                        <hr>
+                                        <div class="name"><hr><b>s.johnsom</b><hr></div> 
+                                    </div>
+                                </div> 
+                            
+                          </div>
+                          <div class="carousel-item">
+                                <div class="col-12 image-ty mb-3">
+                                    <img  src="images/image_5.jpg" alt="Mountains" >
+                                </div>
+                                <div class="col-lg-8 d-flex align-items-center mx-auto">
+                                    <div class="col-12 content-ty  ">
+                                        <h3>typesetting industruy</h3>
+                                        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam.
+                                        Lorem ipsum dolor sit amet, tempor prodesset eos no.Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                                        </p>
+                                        <hr>
+                                        <div class="name"><hr><b>s.johnsom</b><hr></div> 
+                                    </div>
+                                </div> 
+                          </div>
+                          <div class="carousel-item">
+                                <div class="col-12 image-ty mb-3">
+                                    <img  src="images/image_5.jpg" alt="Mountains" >
+                                </div>
+                                <div class="col-lg-8 d-flex align-items-center mx-auto">
+                                    <div class="col-12 content-ty  ">
+                                        <h3>typesetting industruy</h3>
+                                        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam.
+                                        Lorem ipsum dolor sit amet, tempor prodesset eos no.Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                                        </p>
+                                        <hr>
+                                        <div class="name"><hr><b>s.johnsom</b><hr></div> 
+                                    </div>
+                                </div> 
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                      </div>
+                 </div>
             </div>
         </div>
-    <!--footer-->
+    <!--footertop-->
         <div class="container-fluid">
-            <div class="row footertop">
-                <div class="col-12">
-                    <ul class="list-inline justify-content-center d-flex" >
-                        <li class="list-inline-item"><button type="button" class="btn btn-dark">Secondary dfgdfgdff</button></li>
-                        <li class="list-inline-item mt-2"><a href="#">090501590</a></li>
-                        <li class="list-inline-item mt-2"><a href="#">/ contat@myslef.com</a></li>
+            <div class="row">
+                <div class="col-12  footertop d-flex justify-content-center align-items-center">
+                    <ul class="list-inline" >
+                        <li class="list-inline-item"><button type="button" class="btn btn-dark bt">My Contact Information</button></li>
+                        <li class="list-inline-item "><a href="#">090501590</a></li>
+                        <li class="list-inline-item"><a href="#">/ contat@myslef.com</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="row footerbotton" >
-                <div class="container">
-                    <di class="row p-5">
-                        <div class="col-12 col-lg-6" id="styple">
-                            <h3>typesetting industruy</h3>
-                            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam.
-                                Lorem ipsum dolor sit amet, tempor prodesset eos no.Lorem ipsum dolor sit amet, tempor prodesset eos no.
-                                </p>
+        </div>
+    <!--footerbotton-->
+        <div class="container-fluid  footerbotton">
+                <div class="container pl-0 ">
+                    <div class="row pt-5 pb-5">
+                        <div class="col-12 col-lg-6">
+                            <div class="col-lg-10" id="styple">
+                                <h3 class="pb-3">Address My OfficeS</h3>
+                                <p>These cases are perfectly simple and easy to distinguish. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            </div>
                         </div>
                         <div class="col-12 col-lg-6 d-flex flex-row-reverse">
                             <ul class="list-inline ">
@@ -135,11 +206,39 @@
                             </ul>
                         </div>
                   
-                    </di>
+                    </div>
                 </div>
-            </div>
+        </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+                $(document).ready(function(){
+        // Activate Carousel
+        $("#myCarousel").carousel();
+            
+        // Enable Carousel Indicators
+        $(".item1").click(function(){
+            $("#myCarousel").carousel(0);
+        });
+        $(".item2").click(function(){
+            $("#myCarousel").carousel(1);
+        });
+        $(".item3").click(function(){
+            $("#myCarousel").carousel(2);
+        });
+        $(".item4").click(function(){
+            $("#myCarousel").carousel(3);
+        });
+            
+        // Enable Carousel Controls
+        $(".carousel-control-prev").click(function(){
+            $("#myCarousel").carousel("prev");
+        });
+        $(".carousel-control-next").click(function(){
+            $("#myCarousel").carousel("next");
+        });
+        });
+      </script>
 </body>
 
 </html>
